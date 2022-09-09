@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<body>
+<script>
+function alphanumeric(inputtext)
+{
+ var letterNumber = /^[0-9a-zA-Z]+$/;
+ if(inputtext.match(letterNumber)) 
+  {
+   return true;
+  }
+  else
+  { 
+   alert("message"); 
+   return false; 
+  }
+}
+document.write(alphanumeric("THINK IN Think"))
+</script>
+</body>
+<html>
